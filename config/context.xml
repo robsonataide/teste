@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context>
+    <Resource accessToUnderlyingConnectionAllowed="true" 
+        type="javax.sql.DataSource"
+        driverClassName="org.h2.Driver"
+        name="jdbc/main" 
+        username="root"
+        password="root" 
+        removeAbandoned="false" 
+        removeAbandonedTimeout="60" 
+        logAbandoned="true" 
+        url="jdbc:h2:file:~/20ace845c0d14694b25ba52534280caf;DATABASE_TO_UPPER=false;ALIAS_COLUMN_NAME=true;AUTO_SERVER=TRUE" />
+</Context>
